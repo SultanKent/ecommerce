@@ -65,7 +65,7 @@ const Menu = () => {
         {openMenu && (
           <div className="Menu-overley">
             <div className='Menu_main2'>
-            <Link to='./'>
+            <Link to='./' onClick={openAndCloseMenu}>
             <img src={Logo} alt="Logo" className='Logo_img'/>
             </Link>
             <input type='text' placeholder='Поиск' className='question2'/>

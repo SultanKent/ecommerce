@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './pages/Header/Header';
 import Cart from './pages/Cart/Cart'
 import {CartProvider} from './Contexts/CartContext'
@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/GameDetails/:itemId" element={<GameDetails />} />
           <Route path='/Catalog' element={<Catalog />} />
+          <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
       <Footer/>
       </CartProvider>

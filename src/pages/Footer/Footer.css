@@ -130,15 +130,22 @@
         padding: 45px 30px;
         flex-direction: column;
         gap: 28px;
+        position: relative;
     }
     .Footer_down1 {
         flex-direction: column;
         gap: 10px;
+        position: absolute;
+        bottom: 25px;
     }
     .Footer_down1>p {
         font-size: 12px;
     }
     .Footer_down2 {
         justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .messenger>img {
+        height: 20px;
     }
 }

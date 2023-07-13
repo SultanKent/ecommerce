@@ -50,7 +50,8 @@
         height: 183px;
     }
     .adveristing_img {
-        right: 30px;
+        right: 0px;
+        left: 10px;
         bottom: 67px;
     }
     .adveristing_img>img {
