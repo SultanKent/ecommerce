@@ -1,0 +1,23 @@
+.Discounts {
+    width: 100%;
+    padding: 80px 0px 69px;
+}
+
+.Discounts>h1 {
+    margin-bottom: 20px;
+}
+
+.Discounts_main {
+    display: grid;
+    gap: 66px 20px;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+@media only screen and (max-width: 420px) {
+    .Discounts {
+        padding: 50px 30px;
+    }
+    .Discounts_main {
+        display: inherit;
+    }
+}

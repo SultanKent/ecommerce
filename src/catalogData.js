@@ -1,0 +1,88 @@
+const catalogData = [
+      {id: 8,
+      image: require('./assets/Games1.png'),
+      price: 1400,
+      discount1: '-15%',
+      discount2: 1400,
+      title: 'Flower'
+      },
+      { id: 9,
+        image: require('./assets/Games2.png'),
+        price: 1600,
+        discount1: '-15%',
+        discount2: 1600,
+        title: 'Hohokum'
+      },
+      { id: 10,
+      image: require('./assets/Games3.png'),
+      price: 1640,
+      discount1: '-15%',
+      discount2: 1640,
+      title: 'Minecraft'
+      },
+      { id: 11,
+        image: require('./assets/Games4.png'),
+        price: 1900,
+        discount1: '-15%',
+        discount2: 1900,
+        title: 'Eastshade'
+      },
+      { id: 4,
+      image: require('./assets/Top1.png'),
+      price: 16400,
+      discount1: '-15%',
+      discount2: 16400,
+      title: 'Shape'
+      },
+      { id: 5,
+        image: require('./assets/Top2.png'),
+        price: 16400,
+        discount1: '-15%',
+        discount2: 16400,
+        title: 'Minecraft'
+      },
+      { id: 6,
+      image: require('./assets/Top3.png'),
+      price: 16400,
+      discount1: '-15%',
+      discount2: 16400,
+      title: 'Minecraft'
+      },
+      { id: 7,
+        image: require('./assets/Top4.png'),
+        price: 16400,
+        discount1: '-15%',
+        discount2: 16400,
+        title: 'Short Hike'
+      },
+      { id: 12,
+      image: require('./assets/Games8.png'),
+      price: 16400,
+      discount1: '-15%',
+      discount2: 16400,
+      title: 'Big planet'
+      },
+      { id: 13,
+        image: require('./assets/Games9.png'),
+        price: 16400,
+        discount1: '-15%',
+        discount2: 16400,
+        title: 'unravel'
+      },
+      { id: 14,
+      image: require('./assets/Games10.png'),
+      price: 16400,
+      discount1: '-15%',
+      discount2: 16400,
+      title: 'Minecraft'
+      },
+      { id: 15,
+        image: require('./assets/Games11.png'),
+        price: 16400,
+        discount1: '-15%',
+        discount2: 16400,
+        title: 'Minecraft'
+      },
+]
+
+export default catalogData

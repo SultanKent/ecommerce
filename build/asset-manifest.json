@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.db1fe43a.css",
+    "main.js": "/ecommerce/static/js/main.b0841d6e.js",
+    "static/media/Header1.png": "/ecommerce/static/media/Header1.3f54ac255894acf790ca.png",
+    "static/media/Header2.png": "/ecommerce/static/media/Header2.71236a49edf0e19d1b11.png",
+    "static/media/LogIn.png": "/ecommerce/static/media/LogIn.0b58885ded153f4d1dc9.png",
+    "static/media/Discounts4.png": "/ecommerce/static/media/Discounts4.0215eb00cb865eb3aae7.png",
+    "static/media/Discounts3.png": "/ecommerce/static/media/Discounts3.239555163877383f9694.png",
+    "static/media/Discounts1.png": "/ecommerce/static/media/Discounts1.421b872ff098f608a060.png",
+    "static/media/Games8.png": "/ecommerce/static/media/Games8.769488a7a60fc9e4922c.png",
+    "static/media/CocaCola.png": "/ecommerce/static/media/CocaCola.b25a1d8c09291dacde02.png",
+    "static/media/Games9.png": "/ecommerce/static/media/Games9.2cad1f02198ad272f2ec.png",
+    "static/media/Header3.png": "/ecommerce/static/media/Header3.00e1fe6d11e12d19c65b.png",
+    "static/media/Discounts2.png": "/ecommerce/static/media/Discounts2.c954047d726d66de9ce2.png",
+    "static/media/Top4.png": "/ecommerce/static/media/Top4.fbf6433e432abf13d82d.png",
+    "static/media/Games3.png": "/ecommerce/static/media/Games3.fad27bfe6623a21626ad.png",
+    "static/media/Games10.png": "/ecommerce/static/media/Games10.e92ee76c53944fbbf627.png",
+    "static/media/Games11.png": "/ecommerce/static/media/Games11.9b9c741f9e45195cfdc5.png",
+    "static/media/Top3.png": "/ecommerce/static/media/Top3.d51f0d2d67aa14a4f823.png",
+    "static/media/Games4.png": "/ecommerce/static/media/Games4.0f5f6522831464e18fea.png",
+    "static/media/Top1.png": "/ecommerce/static/media/Top1.cbcaee19a34dd5089183.png",
+    "static/media/Games1.png": "/ecommerce/static/media/Games1.919154feeeafb014a231.png",
+    "static/media/fight.png": "/ecommerce/static/media/fight.1dd8c608a14a96d6e797.png",
+    "static/media/Blog.png": "/ecommerce/static/media/Blog.43b7e11c13c3b62d2d73.png",
+    "static/media/Review.png": "/ecommerce/static/media/Review.bcb091ec05c24d976010.png",
+    "static/media/Games2.png": "/ecommerce/static/media/Games2.8c5824c14f75aae38828.png",
+    "static/media/Top2.png": "/ecommerce/static/media/Top2.6b9ac5fd2943c738dd83.png",
+    "static/media/kriper.png": "/ecommerce/static/media/kriper.18250dfdc9077d236eee.png",
+    "static/media/Header_title.png": "/ecommerce/static/media/Header_title.b866391f3a362ade17b8.png",
+    "index.html": "/ecommerce/index.html",
+    "main.db1fe43a.css.map": "/ecommerce/static/css/main.db1fe43a.css.map",
+    "main.b0841d6e.js.map": "/ecommerce/static/js/main.b0841d6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db1fe43a.css",
+    "static/js/main.b0841d6e.js"
+  ]
+}

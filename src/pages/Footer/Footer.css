@@ -1,0 +1,144 @@
+.Footers {
+    padding: 80px 330px;
+    border: 1px solid #13101B;
+    width: 100%;
+}
+
+.Footer_main {
+    margin-bottom: 60px;
+}
+
+.Banks {
+    display: flex;
+    gap: 51px;
+}
+
+.Footer_main2 {
+    display: flex;
+    gap: 164px;
+    font-size: 22px;
+    margin-bottom: 41px;
+}
+
+.Footer_texts1 {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.Footer_texts2 {
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+}
+
+.Carts1 {
+    display: flex;
+    gap: 36px;
+}
+
+.Cart1 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.Footer_down_text {
+    white-space: nowrap;
+    color: #63686D;
+}
+
+.Footers2 {
+    padding: 25px 330px;
+    display: flex;
+    gap: 94px;
+    white-space: nowrap;
+}
+
+.Footers2_p_text {
+    width: 586px;
+}
+
+.Footer_down1 {
+    display: flex;
+    gap: 135px;
+}
+
+.Footer_down2 {
+    display: flex;
+    gap: 30px;
+}
+
+.messenger {
+    display: flex;
+    gap: 26px;
+}
+
+@media only screen and (max-width: 420px) {
+    .Footer {
+        overflow: hidden;
+    }
+    .Footers {
+        padding: 50px 30px;
+    }
+    .Header_img {
+        width: 420px;
+        height: 350px;
+    }
+    .Banks {
+        gap: 8px;
+    }
+    .Banks>img:nth-child(1) {
+        width: 68px;
+        height: 18px;
+    }
+    .Banks>img:nth-child(2) {
+        width: 27px;
+        height: 18px;
+    }
+    .Banks>img:nth-child(3) {
+        width: 56px;
+        height: 18px;
+    }
+    .Banks>img:nth-child(4) {
+        width: 62px;
+        height: 18px;
+    }
+    .Banks>img:nth-child(5) {
+        width: 71px;
+        height: 18px;
+    }
+    .Banks>img:nth-child(6), .Banks>img:nth-child(7) {
+        display: none;
+    }
+    .Footer_main2 {
+        gap: 38px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        white-space: nowrap;
+    }
+    .Carts1 {
+        flex-direction: column;
+        gap: 27px;
+    }
+    .Footer_down_text {
+        white-space: unset;
+        width: 320px;
+        font-size: 12px;
+    }
+    .Footers2 {
+        padding: 45px 30px;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .Footer_down1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Footer_down1>p {
+        font-size: 12px;
+    }
+    .Footer_down2 {
+        justify-content: space-between;
+    }
+}

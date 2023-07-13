@@ -1,0 +1,47 @@
+.Games {
+    max-width: 1260px;
+}
+
+.Games_title>ul {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.Games_title>div {
+    width: 1260px;
+    height: 2px;
+    background: #13101B;
+    margin-bottom: 30px;
+}
+
+.Game_main {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.Main_button {
+    width: 100%;
+    height: 76px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    color: #366EDC;
+}
+
+@media only screen and (max-width: 420px) {
+    .Games {
+        max-width: 420px;
+        padding: 0px 30px;
+    }
+    .Games_title>ul {
+        gap: 15px;
+        font-size: 16px;
+    }
+    .Game_main {
+        display: inherit;
+    }
+}

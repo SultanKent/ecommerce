@@ -1,0 +1,66 @@
+.Minecraft {
+    padding: 90px 0px;
+}
+
+.Minecraft_main {
+    display: flex;
+    gap: 20px;
+}
+
+.adveristing1, .adveristing2 {
+    border-radius: 15px;
+    width: 620px;
+    height: 360px;
+    padding: 40px;
+    display: flex;
+}
+
+.adveristing1 {
+    background: linear-gradient(159deg, #1DBE53 0%, #ACE238 100%);
+}
+
+.adveristing2 {
+    background: linear-gradient(159deg, #FF3D23 0%, #FDA828 100%);
+}
+
+.adveristing1 > h2, .adveristing2 > h2 {
+    width: 379px;
+}
+
+.adveristing_words .content2 {
+    margin-bottom: 80px;
+}
+
+.adveristing_img {
+    position: relative;
+    bottom: 97px;
+    right: 50px;
+}
+
+@media only screen and (max-width: 420px) {
+    .Minecraft {
+        padding: 62px 30px;
+    }
+    .Minecraft_main .swiper {
+        overflow-x: clip;
+        overflow-y: inherit;
+    }
+    .adveristing1, .adveristing2 {
+        width: 320px;
+        height: 183px;
+    }
+    .adveristing_img {
+        right: 30px;
+        bottom: 67px;
+    }
+    .adveristing_img>img {
+        width: 128px;
+        height: 184px;
+    }
+    .adveristing_words>h1 {
+        font-size: 20px;
+    }
+    .adveristing_words .content3 {
+        display: none;
+    }
+}
