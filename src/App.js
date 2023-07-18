@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import Header from './pages/Header/Header';
 import Cart from './pages/Cart/Cart'
 import {CartProvider} from './Contexts/CartContext'
@@ -10,7 +10,7 @@ import GameDetails from './pages/GameDetails/GameDetails';
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <CartProvider>
       <Menu />
         <Routes>
@@ -22,7 +22,7 @@ const App = () => {
         </Routes>
       <Footer/>
       </CartProvider>
-    </Router>
+    </HashRouter>
   );
 };
 

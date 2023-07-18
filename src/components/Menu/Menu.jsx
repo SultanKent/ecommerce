@@ -18,7 +18,6 @@ const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false)
   const openAndCloseMenu = () => {
     setOpenMenu(!openMenu);
-    // navigate('/');
   }
   useEffect(() => {
     const body = document.querySelector('body');
