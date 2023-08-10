@@ -61,6 +61,12 @@
     margin-bottom: 69px;
 }
 
+@media only screen and (max-width: 1740px) {
+    .Header_main {
+        padding: 40px 220px 0px 130px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Header {
         overflow: hidden;

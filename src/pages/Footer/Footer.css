@@ -74,6 +74,15 @@
     gap: 26px;
 }
 
+@media only screen and (max-width: 1740px) {
+    .Footers {
+        padding: 80px 1400px 25px 130px;
+    }
+    .Footers2 {
+        padding: 25px 130px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Footer {
         overflow: hidden;

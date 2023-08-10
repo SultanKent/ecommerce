@@ -102,7 +102,7 @@ const Menu = () => {
         <p style={{color: '#77BE1D'}}>Бесплатно</p>
         <div className='Shop'>
           <img src={Like} alt="Like" className='like'/>
-          <Link to="/Cart">
+          <Link to="/Cart" style={{textDecoration: 'none'}}>
             <div className="cart-container">
               <img src={Shop} alt="Shop"/>
               <span className="cart-count">{itemAmount}</span>

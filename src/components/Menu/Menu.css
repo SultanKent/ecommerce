@@ -59,6 +59,12 @@
     color: #77BE1D;
 }
 
+@media only screen and (max-width: 1740px) {
+    .Menu {
+        padding: 25px 1400px 25px 130px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .Menu {
         padding: 33px 21px;
