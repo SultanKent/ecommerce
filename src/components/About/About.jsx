@@ -23,7 +23,7 @@ const About = () => {
   return (
     <div className="About">
         <h1>Свежее в блоге</h1>
-        {window.innerWidth <= 1020 ? (<Swiper 
+        {window.innerWidth <= 769 ? (<Swiper 
         slidesPerView={1} spaceBetween={0}
         className="About_main">
             {About_blog.map((item) => (

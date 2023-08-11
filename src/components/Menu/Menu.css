@@ -59,59 +59,13 @@
     color: #77BE1D;
 }
 
-.close {
-    position: absolute;
-    right: 32px;
-    z-index: 1002;
-    top: 40px;
-}
-.Menu-overley {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #06030F;
-    z-index: 999;
-    overflow: hidden;
-    animation-name: slideDown;
-    animation-duration: 0.5s;  
-}
-@keyframes slideDown {
-    0% {
-        height: 0;
-    }
-    100% {
-        height: 100%;
-    }
-}
-.Shop2 {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-}
-.Menu-content {
-    top: 45%;
-    position: relative;
-    transform: translate(-50%, -50%);
-    background: #06030F;
-    padding: 20px;
-    border-radius: 5px;
-    left: 60%;
-}    
-.Menu-content2 {
-    display: flex;
-    flex-direction: column;
-    gap: 94px;
-}
-
 @media only screen and (max-width: 1620px) {
     .Menu {
         padding: 25px 1400px 25px 130px;
     }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Menu {
         overflow: hidden;
         padding: 25px;
@@ -210,6 +164,51 @@
         border: 1px solid #13101B;
         color: white;
     }
+    .close {
+        position: absolute;
+        right: 32px;
+        z-index: 1002;
+        top: 40px;
+    }
+    .Menu-overley {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #06030F;
+        z-index: 999;
+        overflow: hidden;
+        animation-name: slideDown;
+        animation-duration: 0.5s;  
+    }
+    @keyframes slideDown {
+        0% {
+            height: 0;
+        }
+        100% {
+            height: 100%;
+        }
+    }
+    .Shop2 {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+    .Menu-content {
+        top: 45%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        background: #06030F;
+        padding: 20px;
+        border-radius: 5px;
+        left: 60%;
+    }    
+    .Menu-content2 {
+        display: flex;
+        flex-direction: column;
+        gap: 94px;
+    }
     .Menu-content22 {
         position: absolute;
         bottom: 0px;
@@ -217,4 +216,17 @@
         padding: 27px 79px;
         border: 1px solid rgba(255, 255, 255, 0.05);
     }      
+}
+
+@media only screen and (max-width: 360px) {
+    .question2 {
+        width: 183px;
+        background-position: 108px 32px;
+    }
+    .close {
+        right: 20px;
+    }
+    .Main_button2 {
+        width: 280px;
+    }
 }

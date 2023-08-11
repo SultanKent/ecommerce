@@ -40,7 +40,7 @@
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Section {
         display: flex;
         flex-direction: column;

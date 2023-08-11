@@ -34,8 +34,12 @@ const Catalog = () => {
     setSearchQuery(event.target.value);
   };
 
+  const excludedIds = [1, 2, 3]; // Add the IDs you want to exclude
+
   const filteredCatalogData = catalogData.filter((item) =>
-    item.title.toLowerCase().includes(searchQuery.toLowerCase())
+  ((item.title && item.title.toLowerCase().includes(searchQuery.toLowerCase())) ||
+  (item.title1 && item.title1.toLowerCase().includes(searchQuery.toLowerCase()))) &&
+  !excludedIds.includes(item.id)
   );
 
   return (
@@ -156,7 +160,14 @@ const Catalog = () => {
                     <p>{item.discount1}</p>
                     <p>{item.discount2}</p>
                   </div>
+                  {typeof item.title === 'string' ? (
                   <p className='title'>{item.title}</p>
+                  ) : (
+                  <img
+                  src={item.title1}
+                  style={{width: '276px'}}
+                  className="item_title" />
+                  )}
                   <div className="content3">
                     <div className="content_1">
                     <span></span>

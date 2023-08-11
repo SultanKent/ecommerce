@@ -37,7 +37,7 @@
     right: 50px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Minecraft_main {
         flex-direction: column;
         align-items: center;

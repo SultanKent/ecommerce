@@ -57,17 +57,17 @@
 }
 
 .cookie {
-    width: 100%;
+    width: 1260px;
     margin-bottom: 69px;
 }
 
 @media only screen and (max-width: 1620px) {
     .Header_main {
-        padding: 40px 130px 0px 130px;
+        padding: 40px 130px;
     }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Header {
         overflow: hidden;
     }
@@ -95,6 +95,9 @@
     .content3>button:nth-child(2) {
         width: 127px;
     }
+    .cookie {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -103,6 +106,9 @@
     }
     .Header_main {
         padding: 0px;
+    }
+    .Header_img {
+        width: 100%!important;
     }
     .slide-content {
         top: 36px;

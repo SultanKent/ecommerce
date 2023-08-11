@@ -34,7 +34,7 @@
     height: 20px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Review_main2 {
         flex-direction: column;
     }

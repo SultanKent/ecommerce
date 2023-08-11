@@ -120,7 +120,7 @@
     }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Cart {
         padding: 25px;
     }

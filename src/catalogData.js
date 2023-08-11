@@ -83,6 +83,33 @@ const catalogData = [
         discount2: 16400,
         title: 'Minecraft'
       },
+      {
+        id: 1,
+        image: require('./assets/Header1.png'),
+        title1: require('./assets/Header_title.png'),
+        description: "Тотальная война нового поколения началась! Сыграйте в Battlefield™ 2042 уже сегодня. Адаптируйтесь и процветайте!",
+        price: 7999,
+        discount: '-25%',
+        discount2: 9999,
+      },
+      {
+        id: 2,
+        image: require('./assets/Header2.png'),
+        title1: require('./assets/Header_title.png'),
+        description: "Тотальная война нового поколения началась! Сыграйте в Battlefield™ 2042 уже сегодня. Адаптируйтесь и процветайте!",
+        price: 4999 ,
+        discount: '-25%',
+        discount2: 6999,
+      },
+      {
+        id: 3,
+        image: require('./assets/Header3.png'),
+        title1: require('./assets/Header_title.png'),
+        description: "Тотальная война нового поколения началась! Сыграйте в Battlefield™ 2042 уже сегодня. Адаптируйтесь и процветайте!",
+        price: 3999,
+        discount: '-25%',
+        discount2: 5999,
+      },
 ]
 
 export default catalogData

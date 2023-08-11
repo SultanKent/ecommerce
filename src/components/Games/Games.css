@@ -24,7 +24,7 @@
 }
 
 .Main_button {
-    width: 100%;
+    width: 1260px;
     height: 76px;
     background: transparent;
     border-radius: 15px;
@@ -32,7 +32,7 @@
     color: #366EDC;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
     .Games {
         align-items: center;
         display: flex;
@@ -49,6 +49,9 @@
     .Games>a {
         width: 100%;
     }
+    .Main_button {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -58,6 +61,8 @@
         padding: 0px 30px;
     }
     .Games_title>ul {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
         gap: 15px;
         font-size: 16px;
     }

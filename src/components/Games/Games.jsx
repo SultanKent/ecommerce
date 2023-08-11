@@ -8,8 +8,8 @@ const Games = () => {
   const { addToCart, handleImageMouseEnter, handleImageMouseLeave, hoveredGame } = useContext(CartContext);
 
   // Determine the number of images to display based on the width
-  const isWidth420 = window.innerWidth === 420;
-  const numImagesToDisplay = isWidth420 ? 6 : 12;
+  const isWidth460 = window.innerWidth === 460;
+  const numImagesToDisplay = isWidth460 ? 6 : 6;
 
   // Filter catalogData to get the desired number of items
   const limitedCatalogData = catalogData.slice(0, numImagesToDisplay);
