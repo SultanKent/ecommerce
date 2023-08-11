@@ -34,7 +34,13 @@
     height: 20px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
+    .Review_main2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .Review {
         padding: 50px 30px;
     }

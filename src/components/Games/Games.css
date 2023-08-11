@@ -32,8 +32,28 @@
     color: #366EDC;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
     .Games {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .Games_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Game_main {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .Games>a {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .Games {
+        display: block;
         max-width: 420px;
         padding: 0px 30px;
     }

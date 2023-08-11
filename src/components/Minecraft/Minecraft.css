@@ -37,9 +37,29 @@
     right: 50px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
+    .Minecraft_main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .adveristing1, .adveristing2 {
+        width: 420px;
+    }
+    .adveristing_img {
+        bottom: unset;
+    }
+    .adveristing_img>img {
+        width: 162px;
+        height: 274px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .Minecraft {
         padding: 62px 30px;
+    }
+    .Minecraft_main {
+        flex-direction: unset;
     }
     .Minecraft_main .swiper {
         overflow-x: clip;

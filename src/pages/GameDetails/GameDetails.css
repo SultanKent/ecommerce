@@ -69,19 +69,36 @@
     color: #FFF;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
+    .GameDetails {
+        padding: 25px;
+    }
+    .GameDetails_main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .GameDetails_main .content2 {
+        justify-content: center;
+    }
+    .GameDetails_main .content_buttons {
+        align-items: center;
+        justify-content: center;
+    }
+    .GameDetails_main .content4 {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .GameDetails {
         padding: 30px 31px;
     }
     .GameDetails_main {
-        flex-direction: column;
         gap: 42px;
     }
     .main_img {
         width: 320px;
-    }
-    .content4 {
-        grid-template-columns: repeat(2, 2fr);
     }
     .content4>p {
         font-size: 14px;

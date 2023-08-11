@@ -74,16 +74,76 @@
     gap: 26px;
 }
 
-@media only screen and (max-width: 1740px) {
+@media only screen and (max-width: 1620px) {
     .Footers {
         padding: 80px 1400px 25px 130px;
     }
     .Footers2 {
         padding: 25px 130px;
     }
+    .Banks {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .Banks>img:nth-child(1) {
+        width: 88px;
+        height: 38px;
+    }
+    .Banks>img:nth-child(2) {
+        width: 47px;
+        height: 38px;
+    }
+    .Banks>img:nth-child(3) {
+        width: 76px;
+        height: 38px;
+    }
+    .Banks>img:nth-child(4) {
+        width: 82px;
+        height: 38px;
+    }
+    .Banks>img:nth-child(5) {
+        width: 91px;
+        height: 38px;
+    }
+    .Banks>img:nth-child(6), .Banks>img:nth-child(7) {
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
+    .Footer {
+        overflow: hidden;
+    }
+    .Footers {
+        padding: 25px;
+    }
+    .Footers2 {
+        padding: 25px;
+    }
+    .Footer_main2 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 80px;
+    }
+    .Carts1 {
+        flex-direction: column;
+    }
+    .Footer_down_text {
+        white-space: unset;
+    }
+    .Footers2 {
+        flex-direction: column;
+    }
+    .Footer_down1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Footer_down2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .Footer {
         overflow: hidden;
     }
@@ -95,6 +155,7 @@
         height: 350px;
     }
     .Banks {
+        display: flex;
         gap: 8px;
     }
     .Banks>img:nth-child(1) {
@@ -116,9 +177,6 @@
     .Banks>img:nth-child(5) {
         width: 71px;
         height: 18px;
-    }
-    .Banks>img:nth-child(6), .Banks>img:nth-child(7) {
-        display: none;
     }
     .Footer_main2 {
         gap: 38px;

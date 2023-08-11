@@ -102,15 +102,27 @@
     display: block;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1620px) {
   .Catalog {
-    padding: 34px 30px;
+      padding: 80px 130px 0px 130px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .Catalog {
+    padding: 25px;
   }
   .Catalog_main {
     flex-direction: column;
   }
   .catalog_games {
     grid-template-columns: repeat(2, 3fr);
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .Catalog {
+    padding: 34px 30px;
   }
   .catalog_games .Online_Games_main {
     gap: 0px;

@@ -13,8 +13,17 @@
     grid-template-columns: repeat(2, 2fr);
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
     .Discounts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .Discounts {
+        display: block;
         padding: 50px 30px;
     }
     .Discounts_main {

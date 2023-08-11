@@ -32,7 +32,7 @@ const Review = () => {
     <div className="Review">
         <h1>Отзывы</h1>
         <div className="Review_main">
-        {window.innerWidth > 420 ? (
+        {window.innerWidth > 460 ? (
           <>
             <div className="Review1">
             <h2>Excellent</h2>

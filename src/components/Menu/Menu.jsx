@@ -52,7 +52,7 @@ const Menu = () => {
           </Link>
           <h2>Playnchill</h2>
         </div>
-        {window.innerWidth > 420 ? (
+        {window.innerWidth > 460 ? (
          <img src={Hamb} alt="Hamb" />
          ) : (
          openMenu ? (

@@ -40,7 +40,34 @@
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1020px) {
+    .Section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Section_main {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: space-between;
+    }
+    .Online_Games_main>img {
+        width: 180px;
+        height: 300px;
+    }
+    .image-button {
+        width: 140px;
+    }
+    .content2>p:nth-child(1) {
+        font-size: 16px;
+    }
+    .content3>p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
     .Section {
         padding: 33px 30px;
     }
@@ -49,6 +76,7 @@
     }
     .Section_main {
         flex-direction: column;
+        display: flex;
     }
     .Online_Games_main {
         display: flex;
